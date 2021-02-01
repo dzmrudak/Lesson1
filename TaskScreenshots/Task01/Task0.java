@@ -1,5 +1,7 @@
 public class Task0 {
     public static void main(String[] args) {
-        System.out.println("Function args are: " + args);
+        for (String str : args) {
+			System.out.printf("Argument -> %s%n", str);
+		}
     }
 }
