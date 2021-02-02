@@ -14,7 +14,9 @@ public class Task5 {
         //поовине диагонали прямоугольника, поэтому вводим переменную, определяющую эту величину
         double halfRectDiag = Math.sqrt(Math.pow(width, 2) + Math.pow(length, 2)) / 2;
 
-        if (r >= halfRectDiag) System.out.println("Круг полностью закрывает прямоугольник");
+        if (r >= halfRectDiag) {
+            System.out.println("Круг полностью закрывает прямоугольник");
+        }
         else System.out.println("Круг не полностью закрывает прямоугольник");
     }
 }
